@@ -10,8 +10,9 @@
     padding: 0 0 3px 0;
     -webkit-font-smoothing: antialiased;
 }
+
 .title-bar {
-    font-family: "Trebuchet MS";
+    font-family: "Gulim14", "Gulim", sans-serif;
     background: linear-gradient(
         180deg,
         rgba(9, 151, 255, 1) 0%,
@@ -23,13 +24,13 @@
         rgba(0, 61, 215, 1) 96%,
         rgba(0, 61, 215, 1) 100%
     );
-    padding: 3px 5px 3px 3px;
+    padding: 4px 4px 3px;
     border-top: 1px solid #0831d9;
     border-left: 1px solid #0831d9;
     border-right: 1px solid #001ea0;
     border-top-left-radius: 8px;
     border-top-right-radius: 7px;
-    font-size: 13px;
+    font-size: 14px;
     text-shadow: 1px 1px #0f1089;
     height: 21px;
 }
@@ -92,6 +93,10 @@
             background-image: svg-load("./icon/close-active.svg");
         }
     }
+}
+
+.window-body {
+    margin: 10px 10px 4px;
 }
 
 .status-bar {
