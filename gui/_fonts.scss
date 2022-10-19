@@ -1,26 +1,12 @@
 /*-------------------------------------------*\
     Fonts
 \*-------------------------------------------*/
+@import url('https://cdn.jsdelivr.net/gh/quiple/hbios-sys@latest/hbios-sys.css');
 
 @font-face {
     font-family: "Pixelated MS Sans Serif";
     src: url("fonts/converted/ms_sans_serif.woff") format("woff");
     src: url("fonts/converted/ms_sans_serif.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Pixelated MS Sans Serif";
-    src: url("fonts/converted/ms_sans_serif_bold.woff") format("woff");
-    src: url("fonts/converted/ms_sans_serif_bold.woff2") format("woff2");
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Perfect DOS VGA 437 Win";
-    src: url("fonts/converted/PerfectDOSVGA437Win.woff2") format("woff2"),
-        url("fonts/converted/PerfectDOSVGA437Win.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -37,6 +23,14 @@
     font-family: "Gulim14";
     src: url("fonts/converted/Gulim14.woff2") format("woff2"),
         url("fonts/converted/Gulim14.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GulimChe12";
+    src: url("fonts/converted/GulimChe12.woff2") format("woff2"),
+        url("fonts/converted/GulimChe12.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }

@@ -35,9 +35,9 @@ a {
 }
 
 code {
-    font-family: monospace;
+    font-family: "GulimChe12", monospace;
     * {
-        font-family: monospace;
+        font-family: "GulimChe12", monospace;
     }
 }
 pre {
@@ -45,11 +45,11 @@ pre {
     padding: 12px 8px;
     background-color: black;
     color: #c0c0c0;
-    font-family: "Perfect DOS VGA 437 Win";
+    font-family: "HBIOS-SYS", monospace;
     font-size: 1rem;
     margin: 0;
     * {
-        font-family: "Perfect DOS VGA 437 Win";
+        font-family: "HBIOS-SYS", monospace;
     }
 }
 summary {
